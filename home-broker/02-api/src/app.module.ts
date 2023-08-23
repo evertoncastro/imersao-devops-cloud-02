@@ -20,7 +20,7 @@ import { PrometheusModule } from "@willsoto/nestjs-prometheus";
     MongooseModule.forRoot(process.env.DATABASE_URL),
     PrometheusModule.register({
       defaultLabels: {
-        version: "v4",
+        version: "v5",
       },
     }),
   ],
