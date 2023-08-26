@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: trader
-        image: evertoncastro/trader-worker:v1
+        image: evertoncastro/trader-worker:latest
         env:
           - name: KAFKA_BOOTSTRAP_SERVERS
             value: "kafka-service:9092"
